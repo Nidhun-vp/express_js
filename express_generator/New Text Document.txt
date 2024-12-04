@@ -1,0 +1,10 @@
+npm --version
+node --version
+1.npm i express-generator
+2.npx express-generator
+3.edit in package.json-
+"scripts": {
+    "start": "node ./bin/www",
+    "dev":"nodemon ./bin/www"
+  },
+4.npm run dev
