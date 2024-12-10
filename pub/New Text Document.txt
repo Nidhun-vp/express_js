@@ -1,0 +1,5 @@
+1.npm i pug
+2.edit jade files in views to .pug
+3.edit in app.js line 14 view engine to pug
+4.add bootstrap
+  add cdn link remove tag with (),remove integrity,crossplatform fied from cdn link

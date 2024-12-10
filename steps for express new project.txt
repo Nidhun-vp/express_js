@@ -1,0 +1,5 @@
+steps for express new project
+----------------------------
+npm init;
+node --version
+npm-- version

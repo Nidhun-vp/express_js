@@ -1,0 +1,37 @@
+npm --version
+node --version
+1.npm i express-generator
+2.npx express-generator
+3.edit in package.json-
+"scripts": {
+    "start": "node ./bin/www",
+    "dev":"nodemon ./bin/www"
+  },
+4.npm run dev
+5.npm i
+
+folder details
+--------------
+www-for port connection
+public-styles
+routes- for routing oof pages
+.jade-
+
+
+app.js edits
+----------------
+get first parameter-url,
+app.js-require set first
+
+and use it eg:app.use('/contact',contactRouter);
+
+router inside file
+--------
+user
+res.render()-view message in a file
+res.send()-for view message in a page
+
+jade in views
+------
+create a jade file file 
+
