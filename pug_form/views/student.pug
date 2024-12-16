@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  h1 add student
+  h2 user Form
+  form(method="post" action="/")
+    label(for="firstname") FirstName: 
+    input(type="text" name="firstName" placeholder="")
+    br 
+    label(for="lastname") lastName: 
+    input(type="text" name="lastName" placeholder="")
+    br 
+    label(for="age") age: 
+    input(type="number" name="age" placeholder="")
+    br 
+    label(for="district") district: 
+    input(type="text" name="district" placeholder="")
+    br 
+    label(for="state") state: 
+    input(type="text" name="state" placeholder="")
+    br 
+    input(type="submit")
+
+
+
+
+
+
+  
